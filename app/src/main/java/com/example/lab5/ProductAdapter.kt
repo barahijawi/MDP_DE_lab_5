@@ -17,10 +17,10 @@ class ProductAdapter(private val productList: List<Product>, private val listene
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) {
         with(holder.binding) {
             val product = productList[position]
-            textProductDetailName.text = product.productName
-            tvProductDescription.text = product.productDescription
-            tvProductCost.text = product.productCost.toString()
-            btnAdd.setOnClickListener { listener(product) }
+//            textProductDetailName.text = product.productName
+//            tvProductDescription.text = product.productDescription
+//            tvProductCost.text = product.productCost.toString()
+//            btnAdd.setOnClickListener { listener(product) }
         }
     }
 

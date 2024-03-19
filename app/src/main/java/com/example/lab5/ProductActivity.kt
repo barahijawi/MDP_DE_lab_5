@@ -33,7 +33,7 @@ class ProductActivity : AppCompatActivity() {
     }
 
     private fun setupRecyclerView() {
-        var productAdapter = ProductAdapter(products)
+        var productAdapter = ProductAdapter(products){}
         binding.recyclerViewProducts.adapter = productAdapter
         binding.recyclerViewProducts.layoutManager = LinearLayoutManager(this)
     }
